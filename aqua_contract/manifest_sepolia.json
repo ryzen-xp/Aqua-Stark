@@ -1329,7 +1329,7 @@
   "contracts": [
     {
       "address": "0x4147e44d80522ad0b28818f1f6111ff89f1d09208f121d65cc62bfb8980cf5d",
-      "class_hash": "0x8ebdb0b76221b678cba7714d393bd551a72b8a6660fa6bf90f42f7f7e34156",
+      "class_hash": "0x31eba3e246b0537d9f2626326636761cadf8365da3a8628d376a28d0499add3",
       "abi": [
         {
           "type": "impl",
@@ -1991,7 +1991,7 @@
         },
         {
           "type": "event",
-          "name": "aqua_stark::systems::actions::AquaStark::Event",
+          "name": "aqua_stark::systems::AquaStark::AquaStark::Event",
           "kind": "enum",
           "variants": [
             {
@@ -2133,9 +2133,21 @@
   "events": [
     {
       "members": [],
-      "class_hash": "0x58c8c83dc16e5e04978d06da9cb374d3b10ae200261dd1a9a8e4fb01079ebcc",
+      "class_hash": "0x40fe0aed12f0aaf469d9df284d26bd9394c2b3d74a3addcd25973aaa99f2869",
       "tag": "aqua_stark-PlayerCreated",
       "selector": "0x6e38919b864f246a83eca36b4584f5f1206e54037ca0234793b4791cdb6ca79"
+    },
+    {
+      "members": [],
+      "class_hash": "0x702d5440a155e0704b268f8d6dbf74cb8ae09b164064fe3b4f896cf725dcac7",
+      "tag": "aqua_stark-TrophyCreation",
+      "selector": "0x48c429a63d15cce6f22c99a792b1071d37804a704af4713bba829cc3c88ef4b"
+    },
+    {
+      "members": [],
+      "class_hash": "0x113e43bc604068a5811205b126a3e318b21e5c72746138efa6fb40277067f00",
+      "tag": "aqua_stark-TrophyProgression",
+      "selector": "0x2c4b98b558785e5a008a098c27b91920c0f7b539ecf80719c7e1c2b16751083"
     }
   ],
   "external_contracts": []

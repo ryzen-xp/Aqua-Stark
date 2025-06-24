@@ -17,3 +17,6 @@ pub mod tests {
     mod test_world;
 }
 
+pub mod achievements {
+    pub mod achievement;
+}

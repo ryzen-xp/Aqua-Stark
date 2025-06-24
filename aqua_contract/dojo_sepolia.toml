@@ -19,7 +19,7 @@ default = "aqua_stark"
 # rpc_url = ""         # env: STARKNET_RPC_URL
 # account_address = "" # env: DOJO_ACCOUNT_ADDRESS
 # private_key = ""     # env: DOJO_PRIVATE_KEY
-# world_address = ""
+ world_address = "0x02239f77d69e7782b73516b1e0f8ab58fbb50d4f75efa47d5bd0e83781dc1363"
 
 [writers]
 "aqua_stark" = ["aqua_stark-AquaStark"]
@@ -40,3 +40,5 @@ default = "aqua_stark"
 "aqua_stark-UsernameToAddress" = ["aqua_stark-AquaStark"]
 "aqua_stark-AddressToUsername" = ["aqua_stark-AquaStark"]
 "aqua_stark-Player" = ["aqua_stark-AquaStark"]
+"aqua_stark-TrophyCreation" = ["aqua_stark-Actions"]
+"aqua_stark-TrophyProgression" = ["aqua_stark-Actions"]

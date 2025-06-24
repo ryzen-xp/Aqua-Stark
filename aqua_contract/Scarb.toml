@@ -14,9 +14,13 @@ move = "sozo execute dojo_starter-actions move -c 1 --wait" # scarb run move
 
 [dependencies]
 dojo = { git = "https://github.com/dojoengine/dojo", tag = "v1.5.0" }
+achievement = { git = "https://github.com/cartridge-gg/arcade" } 
+
 
 [[target.starknet-contract]]
-build-external-contracts = ["dojo::world::world_contract::world"]
+build-external-contracts = ["dojo::world::world_contract::world" ,
+"achievement::events::index::e_TrophyCreation", 
+    "achievement::events::index::e_TrophyProgression", ]
 
 [dev-dependencies]
 cairo_test = "=2.10.1"
